@@ -22,7 +22,8 @@ https://github.com/bdashore3/flash-attention/releases
 ## 安装注意事项：
  - Windows系统需要使用conda虚拟环境。
  - 试验下来python3.12也能用，推荐使用python3.10，torch<=2.4.1
- - 原项目推荐的pynini2.1.6会有问题（可能需要更高的python版本，比如3.12），需使用官方推荐的2.1.5：
+ - [pynini2.1.6轮子下载](https://github.com/billwuhao/pynini-windows-wheels/releases/tag/v2.1.6.post1)
+ - pynini2.1.6可能会有问题（可能需要更高的python版本，比如3.12），2.1.5安装方法：
  ```bash
  conda install -y -c conda-forge pynini==2.1.5 
  python -m pip install WeTextProcessing --no-deps
